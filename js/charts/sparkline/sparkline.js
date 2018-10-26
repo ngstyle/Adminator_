@@ -1,7 +1,7 @@
 $(function () {
 
     let drawSparklines = function drawSparklines() {
-        console.log("drawSparklines...");
+        // console.log("drawSparklines...");
 
         if ($('#sparklinedash').length > 0) {
             $('#sparklinedash').sparkline([0, 5, 6, 10, 9, 12, 4, 9], {
