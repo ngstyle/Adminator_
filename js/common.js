@@ -14,9 +14,12 @@ $(function () {
 
 });
 
+$('.sidebar-toggle').click(function(e) {
+    $('.app').toggleClass('is-collapsed');
+    e.preventDefault();
+});
 
 $('#sidebar-toggle').click(function (e) {
-    $('.app').toggleClass('is-collapsed');
     e.preventDefault();
 
     setTimeout(function () {
