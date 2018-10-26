@@ -1,14 +1,17 @@
 
 $(function () {
-    let $s = $('.masonry');
-    if ($s.length > 0) {
-        $s.masonry({
-            // options...
-            itemSelector: '.masonry-item',
-            columnWidth: '.masonry-sizer',
-            percentPosition: true,
-        });
-    }
+    window.addEventListener('load', function () {
+        let $s = $('.masonry');
+        if ($s.length > 0) {
+            $s.masonry({
+                // options...
+                itemSelector: '.masonry-item',
+                columnWidth: '.masonry-sizer',
+                percentPosition: true,
+            });
+        }
+    });
+
 });
 
 
