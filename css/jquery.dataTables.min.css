@@ -1,0 +1,90 @@
+table.dataTable.no-footer {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    margin-bottom: 20px;
+}
+
+.sorting_asc:focus {
+    outline: none;
+}
+
+.dataTables_wrapper {
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.dataTables_wrapper .dataTables_length {
+    color: #313435;
+    float: left;
+}
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid rgba(0, 0, 0, 0.0625);
+    border-radius: 2px;
+    box-shadow: none;
+    height: 35px;
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #72777a;
+    transition: all 0.2s ease-in;
+}
+.dataTables_wrapper .dataTables_filter {
+    color: #313435;
+    float: right;
+}
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid rgba(0, 0, 0, 0.0625);
+    border-radius: 2px;
+    box-shadow: none;
+    height: 35px;
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 5px;
+    color: #72777a;
+    transition: all 0.2s ease-in;
+}
+.dataTables_wrapper .dataTables_info {
+    color: #72777a;
+    float: left;
+}
+.dataTables_wrapper .dataTables_processing {
+    color: #313435;
+}
+.dataTables_wrapper .dataTables_paginate {
+    color: #72777a;
+    float: right;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #72777a !important;
+    padding: 6px 12px;
+    border-radius: 2px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next, .dataTables_wrapper .dataTables_paginate .paginate_button.previous, .dataTables_wrapper .dataTables_paginate .paginate_button.first, .dataTables_wrapper .dataTables_paginate .paginate_button.last {
+    border-radius: 2px;
+    text-decoration: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.next:focus, .dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.previous:focus, .dataTables_wrapper .dataTables_paginate .paginate_button.first:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.first:focus, .dataTables_wrapper .dataTables_paginate .paginate_button.last:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.last:focus {
+    color: #fff !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.next.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.previous.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.first.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.last.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #fff !important;
+    background: #7774e7;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff !important;
+    background: #7774e7;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    background: #7774e7;
+}
+.dataTables_wrapper .status {
+    width: 5px;
+    height: 5px;
+}
