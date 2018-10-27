@@ -440,13 +440,13 @@ hr {
 
 .main-content {
   padding: 85px 20px 20px;
-  min-height: calc(100vh - 61px); }
+  min-height: calc(100vh - 41px); }
   @media screen and (max-width: 991px) {
     .main-content {
       padding: 85px 5px 5px; } }
 
 .remain-height {
-  height: calc(100vh - 126px); }
+  height: calc(100vh - 106px); }
 
 .full-container {
   left: 280px;
@@ -749,7 +749,7 @@ footer {
 
 #chat-sidebar {
   width: 250px;
-  height: calc(100vh - 65px - 60px);
+  height: calc(100vh - 65px - 40px);
   overflow: auto; }
   @media screen and (max-width: 991px) {
     #chat-sidebar {
@@ -759,7 +759,7 @@ footer {
         margin-left: 0; } }
 
 #chat-box {
-  height: calc(100vh - 65px - 60px);
+  height: calc(100vh - 65px - 40px);
   overflow: auto; }
 
 .email-app .email-side-nav {
