@@ -665,5 +665,15 @@
 
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/common.js"></script>
+
+    <script type="text/javascript">
+
+        $('.email-side-toggle').on('click', e => {
+            $('.email-app').toggleClass('side-active');
+            e.preventDefault();
+        });
+
+    </script>
+
   </body>
 </html>
